@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "examples/agentimate/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/examples/agentimate/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/examples/agentimate/index.html"
+    }
+  ]
+} 
