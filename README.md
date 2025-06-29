@@ -1,15 +1,40 @@
-# Ansh & Riley Full-Stack Template
+# Agentimate Landing Page
 
-This is a full-stack template project for Software Composers to create  applications with AI.
+A modern, responsive landing page for Agentimate - an AI-powered animation tool that transforms text descriptions into beautiful animations.
 
-## Getting started
-To create a new project, you go to `/paths`, choose from our list of Paths, and then use Cursor's Composer feature to quickly scaffold your project!
+## Features
 
-You can also edit the Path's prompt template to be whatever you like!
+- Responsive design with modern UI
+- Gradient text animations
+- Testimonial cards
+- Interactive window animations
+- Pink dot burst effects
 
-## Technologies used
-This doesn't really matter, but is useful for the AI to understand more about this project. We are using the following technologies
-- React with Next.js 14 App Router
-- TailwindCSS
-- Firebase Auth, Storage, and Database
-- Multiple AI endpoints including OpenAI, Anthropic, and Replicate using Vercel's AI SDK
+## Technologies Used
+
+- HTML5
+- CSS3 (with modern features like Grid, Flexbox, and CSS animations)
+- Vanilla JavaScript for animations
+
+## Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Capelthwaite/agentimate-landing-page.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd agentimate-landing-page
+```
+
+3. Open the `examples/agentimate/index.html` file in your browser or use a local server:
+```bash
+python -m http.server 8000
+```
+
+Then visit `http://localhost:8000/examples/agentimate/`
+
+## License
+
+MIT License
